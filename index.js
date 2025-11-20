@@ -5,7 +5,7 @@ const app = express();
 const PORT = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello World! Your app is running via Jenkins and Docker using AWS [NEW APP].');
+  res.send('Hello World! Your app is running via Jenkins and Docker using AWS [NEW APP] by tharun.');
 });
 
 app.listen(PORT, () => {
